@@ -1,0 +1,6 @@
+{
+  "logical_date": "2026-06-07",
+  "status": "smoke_ok",
+  "spark_version": "3.5.4",
+  "smoke_count": 1
+}

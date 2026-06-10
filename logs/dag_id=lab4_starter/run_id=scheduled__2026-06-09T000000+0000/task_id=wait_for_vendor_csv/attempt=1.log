@@ -1,0 +1,24 @@
+[2026-06-10T08:22:21.453+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-10T08:22:21.527+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lab4_starter.wait_for_vendor_csv scheduled__2026-06-09T00:00:00+00:00 [queued]>
+[2026-06-10T08:22:21.556+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lab4_starter.wait_for_vendor_csv scheduled__2026-06-09T00:00:00+00:00 [queued]>
+[2026-06-10T08:22:21.559+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2026-06-10T08:22:21.599+0000] {taskinstance.py:2889} INFO - Executing <Task(FileSensor): wait_for_vendor_csv> on 2026-06-09 00:00:00+00:00
+[2026-06-10T08:22:21.612+0000] {standard_task_runner.py:72} INFO - Started process 115 to run task
+[2026-06-10T08:22:21.618+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'lab4_starter', 'wait_for_vendor_csv', 'scheduled__2026-06-09T00:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/starter_pipeline.py', '--cfg-path', '/tmp/tmpkx2xpc54']
+[2026-06-10T08:22:21.631+0000] {standard_task_runner.py:105} INFO - Job 27: Subtask wait_for_vendor_csv
+[2026-06-10T08:22:21.793+0000] {task_command.py:467} INFO - Running <TaskInstance: lab4_starter.wait_for_vendor_csv scheduled__2026-06-09T00:00:00+00:00 [running]> on host bea06c6cb5ad
+[2026-06-10T08:22:22.004+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='lab4' AIRFLOW_CTX_DAG_ID='lab4_starter' AIRFLOW_CTX_TASK_ID='wait_for_vendor_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-06-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-09T00:00:00+00:00'
+[2026-06-10T08:22:22.007+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-06-10T08:22:22.014+0000] {baseoperator.py:421} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2026-06-10T08:22:22.036+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-06-10T08:22:22.040+0000] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2026-06-10T08:22:22.042+0000] {filesystem.py:109} INFO - Poking for file /opt/***/data/incoming/transactions_2026-06-09.csv
+[2026-06-10T08:22:22.056+0000] {filesystem.py:113} INFO - Found File /opt/***/data/incoming/transactions_2026-06-09.csv last modified: 20260607122148
+[2026-06-10T08:22:22.058+0000] {base.py:336} INFO - Success criteria met. Exiting.
+[2026-06-10T08:22:22.061+0000] {filesystem.py:109} INFO - Poking for file /opt/***/data/incoming/transactions_2026-06-09.csv
+[2026-06-10T08:22:22.073+0000] {filesystem.py:113} INFO - Found File /opt/***/data/incoming/transactions_2026-06-09.csv last modified: 20260607122148
+[2026-06-10T08:22:22.092+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-06-10T08:22:22.095+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=lab4_starter, task_id=wait_for_vendor_csv, run_id=scheduled__2026-06-09T00:00:00+00:00, execution_date=20260609T000000, start_date=20260610T082221, end_date=20260610T082222
+[2026-06-10T08:22:22.127+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-10T08:22:22.189+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-10T08:22:22.194+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

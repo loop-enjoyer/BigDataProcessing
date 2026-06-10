@@ -1,0 +1,177 @@
+{
+  "gold_path": "/opt/airflow/data/curated/dt=2026-06-10/kpis_by_category_country.parquet",
+  "logical_date": "2026-06-10",
+  "revenue_by_category": [
+    {
+      "category": "books",
+      "revenue_eur": 4374.94,
+      "tx_count": 37
+    },
+    {
+      "category": "groceries",
+      "revenue_eur": 4073.52,
+      "tx_count": 32
+    },
+    {
+      "category": "toys",
+      "revenue_eur": 3917.57,
+      "tx_count": 31
+    },
+    {
+      "category": "electronics",
+      "revenue_eur": 3875.86,
+      "tx_count": 28
+    },
+    {
+      "category": "home",
+      "revenue_eur": 3777.88,
+      "tx_count": 25
+    },
+    {
+      "category": "fashion",
+      "revenue_eur": 3226.33,
+      "tx_count": 24
+    },
+    {
+      "category": "sports",
+      "revenue_eur": 3032.48,
+      "tx_count": 23
+    }
+  ],
+  "silver_valid_rows": 200,
+  "spark_version": "3.5.4",
+  "status": "ok",
+  "top_category_country": [
+    {
+      "avg_basket_eur": 249.29,
+      "category": "electronics",
+      "country": "FR",
+      "event_date": "2026-06-10T10:44:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 249.29,
+      "payment_methods": 1,
+      "revenue_eur": 249.29,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    },
+    {
+      "avg_basket_eur": 247.7,
+      "category": "home",
+      "country": "ES",
+      "event_date": "2026-06-10T05:16:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 247.7,
+      "payment_methods": 1,
+      "revenue_eur": 247.7,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    },
+    {
+      "avg_basket_eur": 247.21,
+      "category": "books",
+      "country": "DE",
+      "event_date": "2026-06-10T22:52:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 247.21,
+      "payment_methods": 1,
+      "revenue_eur": 247.21,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    },
+    {
+      "avg_basket_eur": 246.49,
+      "category": "books",
+      "country": "ES",
+      "event_date": "2026-06-10T13:41:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 246.49,
+      "payment_methods": 1,
+      "revenue_eur": 246.49,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    },
+    {
+      "avg_basket_eur": 244.01,
+      "category": "fashion",
+      "country": "NL",
+      "event_date": "2026-06-10T03:29:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 244.01,
+      "payment_methods": 1,
+      "revenue_eur": 244.01,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    },
+    {
+      "avg_basket_eur": 243.95,
+      "category": "books",
+      "country": "BE",
+      "event_date": "2026-06-10T20:04:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 243.95,
+      "payment_methods": 1,
+      "revenue_eur": 243.95,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    },
+    {
+      "avg_basket_eur": 243.59,
+      "category": "toys",
+      "country": "ES",
+      "event_date": "2026-06-10T17:53:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 243.59,
+      "payment_methods": 1,
+      "revenue_eur": 243.59,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    },
+    {
+      "avg_basket_eur": 243.04,
+      "category": "toys",
+      "country": "DE",
+      "event_date": "2026-06-10T05:21:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 243.04,
+      "payment_methods": 1,
+      "revenue_eur": 243.04,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    },
+    {
+      "avg_basket_eur": 241.55,
+      "category": "groceries",
+      "country": "IT",
+      "event_date": "2026-06-10T06:23:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 241.55,
+      "payment_methods": 1,
+      "revenue_eur": 241.55,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    },
+    {
+      "avg_basket_eur": 240.96,
+      "category": "electronics",
+      "country": "BE",
+      "event_date": "2026-06-10T16:03:00",
+      "logical_date": "2026-06-10",
+      "max_basket_eur": 240.96,
+      "payment_methods": 1,
+      "revenue_eur": 240.96,
+      "target_completion_pct": null,
+      "target_revenue_eur": null,
+      "tx_count": 1
+    }
+  ],
+  "total_revenue_eur": 26278.58
+}

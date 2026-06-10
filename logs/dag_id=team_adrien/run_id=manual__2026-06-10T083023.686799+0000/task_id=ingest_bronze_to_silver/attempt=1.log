@@ -1,0 +1,17 @@
+[2026-06-10T08:30:27.656+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-10T08:30:27.712+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: team_adrien.ingest_bronze_to_silver manual__2026-06-10T08:30:23.686799+00:00 [queued]>
+[2026-06-10T08:30:27.724+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: team_adrien.ingest_bronze_to_silver manual__2026-06-10T08:30:23.686799+00:00 [queued]>
+[2026-06-10T08:30:27.727+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2026-06-10T08:30:27.744+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): ingest_bronze_to_silver> on 2026-06-10 08:30:23.686799+00:00
+[2026-06-10T08:30:27.751+0000] {standard_task_runner.py:72} INFO - Started process 1609 to run task
+[2026-06-10T08:30:27.755+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'team_adrien', 'ingest_bronze_to_silver', 'manual__2026-06-10T08:30:23.686799+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/team_adrien.py', '--cfg-path', '/tmp/tmphno84kh7']
+[2026-06-10T08:30:27.759+0000] {standard_task_runner.py:105} INFO - Job 46: Subtask ingest_bronze_to_silver
+[2026-06-10T08:30:27.845+0000] {task_command.py:467} INFO - Running <TaskInstance: team_adrien.ingest_bronze_to_silver manual__2026-06-10T08:30:23.686799+00:00 [running]> on host bea06c6cb5ad
+[2026-06-10T08:30:27.972+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='team_adrien' AIRFLOW_CTX_DAG_ID='team_adrien' AIRFLOW_CTX_TASK_ID='ingest_bronze_to_silver' AIRFLOW_CTX_EXECUTION_DATE='2026-06-10T08:30:23.686799+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-10T08:30:23.686799+00:00'
+[2026-06-10T08:30:27.975+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-06-10T08:30:28.213+0000] {python.py:240} INFO - Done. Returned value was: {'logical_date': '2026-06-10', 'raw_path': '/opt/***/data/raw/dt=2026-06-10/transactions.parquet', 'row_count': 200, 'amount_sum': 26278.580000000013}
+[2026-06-10T08:30:28.257+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-06-10T08:30:28.259+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=team_adrien, task_id=ingest_bronze_to_silver, run_id=manual__2026-06-10T08:30:23.686799+00:00, execution_date=20260610T083023, start_date=20260610T083027, end_date=20260610T083028
+[2026-06-10T08:30:28.294+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-10T08:30:28.320+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-10T08:30:28.324+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

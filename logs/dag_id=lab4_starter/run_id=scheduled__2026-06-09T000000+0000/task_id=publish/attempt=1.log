@@ -1,0 +1,17 @@
+[2026-06-10T08:23:06.251+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-10T08:23:06.296+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lab4_starter.publish scheduled__2026-06-09T00:00:00+00:00 [queued]>
+[2026-06-10T08:23:06.329+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lab4_starter.publish scheduled__2026-06-09T00:00:00+00:00 [queued]>
+[2026-06-10T08:23:06.333+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2026-06-10T08:23:06.383+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): publish> on 2026-06-09 00:00:00+00:00
+[2026-06-10T08:23:06.402+0000] {standard_task_runner.py:72} INFO - Started process 719 to run task
+[2026-06-10T08:23:06.409+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'lab4_starter', 'publish', 'scheduled__2026-06-09T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/starter_pipeline.py', '--cfg-path', '/tmp/tmpls1lq33g']
+[2026-06-10T08:23:06.414+0000] {standard_task_runner.py:105} INFO - Job 38: Subtask publish
+[2026-06-10T08:23:06.534+0000] {task_command.py:467} INFO - Running <TaskInstance: lab4_starter.publish scheduled__2026-06-09T00:00:00+00:00 [running]> on host bea06c6cb5ad
+[2026-06-10T08:23:06.735+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='lab4' AIRFLOW_CTX_DAG_ID='lab4_starter' AIRFLOW_CTX_TASK_ID='publish' AIRFLOW_CTX_EXECUTION_DATE='2026-06-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-09T00:00:00+00:00'
+[2026-06-10T08:23:06.739+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-06-10T08:23:06.749+0000] {python.py:240} INFO - Done. Returned value was: {'report_path': '/opt/***/data/reports/dashboard_2026-06-09.json', 'status': 'ready'}
+[2026-06-10T08:23:06.829+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-06-10T08:23:06.832+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=lab4_starter, task_id=publish, run_id=scheduled__2026-06-09T00:00:00+00:00, execution_date=20260609T000000, start_date=20260610T082306, end_date=20260610T082306
+[2026-06-10T08:23:06.909+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-10T08:23:06.956+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-10T08:23:06.963+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
