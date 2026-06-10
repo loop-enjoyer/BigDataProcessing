@@ -1,0 +1,17 @@
+[2026-06-07T13:07:15.420+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-07T13:07:15.552+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lab4_starter.ingest scheduled__2026-06-06T00:00:00+00:00 [queued]>
+[2026-06-07T13:07:15.597+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lab4_starter.ingest scheduled__2026-06-06T00:00:00+00:00 [queued]>
+[2026-06-07T13:07:15.601+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2026-06-07T13:07:15.645+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): ingest> on 2026-06-06 00:00:00+00:00
+[2026-06-07T13:07:15.669+0000] {standard_task_runner.py:72} INFO - Started process 162 to run task
+[2026-06-07T13:07:15.689+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'lab4_starter', 'ingest', 'scheduled__2026-06-06T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/starter_pipeline.py', '--cfg-path', '/tmp/tmpmexwlc7x']
+[2026-06-07T13:07:15.697+0000] {standard_task_runner.py:105} INFO - Job 19: Subtask ingest
+[2026-06-07T13:07:16.183+0000] {task_command.py:467} INFO - Running <TaskInstance: lab4_starter.ingest scheduled__2026-06-06T00:00:00+00:00 [running]> on host bea06c6cb5ad
+[2026-06-07T13:07:16.698+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='lab4' AIRFLOW_CTX_DAG_ID='lab4_starter' AIRFLOW_CTX_TASK_ID='ingest' AIRFLOW_CTX_EXECUTION_DATE='2026-06-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-06T00:00:00+00:00'
+[2026-06-07T13:07:16.708+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-06-07T13:07:17.128+0000] {python.py:240} INFO - Done. Returned value was: {'logical_date': '2026-06-06', 'raw_path': '/opt/***/data/raw/dt=2026-06-06/transactions.parquet', 'row_count': 200, 'amount_sum': 24017.990000000016}
+[2026-06-07T13:07:17.258+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-06-07T13:07:17.263+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=lab4_starter, task_id=ingest, run_id=scheduled__2026-06-06T00:00:00+00:00, execution_date=20260606T000000, start_date=20260607T130715, end_date=20260607T130717
+[2026-06-07T13:07:17.343+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-07T13:07:17.436+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-07T13:07:17.449+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

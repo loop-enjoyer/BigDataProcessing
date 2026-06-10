@@ -1,0 +1,24 @@
+[2026-06-07T12:37:05.938+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-07T12:37:06.206+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: team_adrien.wait_for_vendor_csv manual__2026-06-03T00:00:00+00:00 [queued]>
+[2026-06-07T12:37:06.257+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: team_adrien.wait_for_vendor_csv manual__2026-06-03T00:00:00+00:00 [queued]>
+[2026-06-07T12:37:06.266+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2026-06-07T12:37:06.336+0000] {taskinstance.py:2889} INFO - Executing <Task(FileSensor): wait_for_vendor_csv> on 2026-06-03 00:00:00+00:00
+[2026-06-07T12:37:06.368+0000] {standard_task_runner.py:72} INFO - Started process 243 to run task
+[2026-06-07T12:37:06.415+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'team_adrien', 'wait_for_vendor_csv', 'manual__2026-06-03T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/team_adrien.py', '--cfg-path', '/tmp/tmp28csk0xx']
+[2026-06-07T12:37:06.437+0000] {standard_task_runner.py:105} INFO - Job 5: Subtask wait_for_vendor_csv
+[2026-06-07T12:37:07.384+0000] {task_command.py:467} INFO - Running <TaskInstance: team_adrien.wait_for_vendor_csv manual__2026-06-03T00:00:00+00:00 [running]> on host bea06c6cb5ad
+[2026-06-07T12:37:08.282+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='team_adrien' AIRFLOW_CTX_DAG_ID='team_adrien' AIRFLOW_CTX_TASK_ID='wait_for_vendor_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-06-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-03T00:00:00+00:00'
+[2026-06-07T12:37:08.290+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-06-07T12:37:08.302+0000] {baseoperator.py:421} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2026-06-07T12:37:08.354+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-06-07T12:37:08.367+0000] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2026-06-07T12:37:08.371+0000] {filesystem.py:109} INFO - Poking for file /opt/***/data/incoming/transactions_2026-06-03.csv
+[2026-06-07T12:37:08.388+0000] {filesystem.py:113} INFO - Found File /opt/***/data/incoming/transactions_2026-06-03.csv last modified: 20260607122148
+[2026-06-07T12:37:08.391+0000] {base.py:336} INFO - Success criteria met. Exiting.
+[2026-06-07T12:37:08.393+0000] {filesystem.py:109} INFO - Poking for file /opt/***/data/incoming/transactions_2026-06-03.csv
+[2026-06-07T12:37:08.402+0000] {filesystem.py:113} INFO - Found File /opt/***/data/incoming/transactions_2026-06-03.csv last modified: 20260607122148
+[2026-06-07T12:37:08.430+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-06-07T12:37:08.434+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=team_adrien, task_id=wait_for_vendor_csv, run_id=manual__2026-06-03T00:00:00+00:00, execution_date=20260603T000000, start_date=20260607T123706, end_date=20260607T123708
+[2026-06-07T12:37:08.555+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-07T12:37:08.765+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-07T12:37:08.774+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -18,7 +18,7 @@ TX_SCHEMA = T.StructType(
         T.StructField("payment_method", T.StringType(), True),
         T.StructField("country", T.StringType(), True),
         T.StructField("amount_eur", T.DoubleType(), True),
-        T.StructField("ts", T.StringType(), True),
+        T.StructField("ts", T.LongType(), True),
     ]
 )
 
@@ -68,7 +68,7 @@ def transform_2(
     """Enrich transactions with date, basket segment and optional category targets."""
     enriched = (
         df.withColumn("logical_date", F.lit(logical_date))
-        .withColumn("event_date", F.to_date("event_ts"))
+        .withColumn("event_date", F.to_timestamp(F.col("ts") / 1_000_000))
         .withColumn(
             "basket_segment",
             F.when(F.col("amount_eur") >= 150, F.lit("high"))
@@ -107,10 +107,14 @@ def transform_3(df: DataFrame) -> DataFrame:
     )
 
 
-def _write_json_atomic(payload: dict, path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
+def _write_json_atomic(payload, path):
+    def default_serializer(obj):
+        if hasattr(obj, "isoformat"):
+            return obj.isoformat()
+        raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
+    
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(payload, indent=2, sort_keys=True, default=default_serializer), encoding="utf-8")
     tmp.replace(path)
 
 

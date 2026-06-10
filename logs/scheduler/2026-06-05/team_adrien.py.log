@@ -1,0 +1,568 @@
+[2026-06-05T14:26:49.048+0000] {processor.py:186} INFO - Started process (PID=464) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:26:49.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:26:49.054+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:49.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:26:49.538+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:26:50.868+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:50.865+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:team_adrien
+[2026-06-05T14:26:50.893+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:50.892+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:team_adrien
+[2026-06-05T14:26:50.909+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:50.908+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:team_adrien
+[2026-06-05T14:26:50.925+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:50.924+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:team_adrien
+[2026-06-05T14:26:50.938+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:50.938+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:team_adrien
+[2026-06-05T14:26:50.953+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:50.952+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:team_adrien
+[2026-06-05T14:26:50.967+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:50.967+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:team_adrien
+[2026-06-05T14:26:50.969+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:50.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:26:50.988+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:50.987+0000] {dag.py:3262} INFO - Creating ORM DAG for team_adrien
+[2026-06-05T14:26:51.013+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:26:51.013+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:26:51.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 2.035 seconds
+[2026-06-05T14:27:22.008+0000] {processor.py:186} INFO - Started process (PID=486) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:27:22.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:27:22.030+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:27:22.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:27:22.358+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:27:22.409+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:27:22.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:27:22.451+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:27:22.450+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:27:22.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.489 seconds
+[2026-06-05T14:27:53.104+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:27:53.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:27:53.109+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:27:53.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:27:53.371+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:27:53.412+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:27:53.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:27:53.450+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:27:53.449+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:27:53.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.396 seconds
+[2026-06-05T14:28:24.123+0000] {processor.py:186} INFO - Started process (PID=530) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:28:24.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:28:24.128+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:28:24.128+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:28:24.447+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:28:24.490+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:28:24.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:28:24.534+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:28:24.533+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:28:24.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.473 seconds
+[2026-06-05T14:28:55.103+0000] {processor.py:186} INFO - Started process (PID=552) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:28:55.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:28:55.108+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:28:55.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:28:55.332+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:28:55.395+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:28:55.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:28:55.492+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:28:55.492+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:28:55.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.441 seconds
+[2026-06-05T14:29:25.629+0000] {processor.py:186} INFO - Started process (PID=574) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:29:25.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:29:25.633+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:29:25.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:29:25.898+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:29:25.945+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:29:25.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:29:25.984+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:29:25.984+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:29:26.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.398 seconds
+[2026-06-05T14:29:56.558+0000] {processor.py:186} INFO - Started process (PID=596) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:29:56.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:29:56.562+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:29:56.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:29:56.805+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:29:56.847+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:29:56.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:29:56.894+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:29:56.894+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:29:56.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.387 seconds
+[2026-06-05T14:30:27.457+0000] {processor.py:186} INFO - Started process (PID=618) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:30:27.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:30:27.462+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:30:27.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:30:27.698+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:30:27.742+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:30:27.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:30:27.788+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:30:27.788+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:30:27.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.374 seconds
+[2026-06-05T14:30:57.924+0000] {processor.py:186} INFO - Started process (PID=640) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:30:57.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:30:57.928+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:30:57.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:30:58.182+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:30:58.233+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:30:58.233+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:30:58.272+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:30:58.272+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:30:58.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.397 seconds
+[2026-06-05T14:31:29.003+0000] {processor.py:186} INFO - Started process (PID=662) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:31:29.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:31:29.008+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:31:29.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:31:29.260+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:31:29.304+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:31:29.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:31:29.342+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:31:29.342+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:31:29.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.384 seconds
+[2026-06-05T14:32:00.082+0000] {processor.py:186} INFO - Started process (PID=684) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:32:00.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:32:00.094+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:32:00.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:32:01.047+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:32:01.089+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:32:01.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:32:01.122+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:32:01.122+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:32:01.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 1.108 seconds
+[2026-06-05T14:32:31.889+0000] {processor.py:186} INFO - Started process (PID=707) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:32:31.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:32:31.900+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:32:31.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:32:32.233+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:32:32.288+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:32:32.287+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:32:32.334+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:32:32.334+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:32:32.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.500 seconds
+[2026-06-05T14:33:02.996+0000] {processor.py:186} INFO - Started process (PID=729) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:33:02.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:33:03.000+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:33:02.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:33:03.357+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:33:03.413+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:33:03.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:33:03.456+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:33:03.456+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:33:03.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.507 seconds
+[2026-06-05T14:33:34.092+0000] {processor.py:186} INFO - Started process (PID=751) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:33:34.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:33:34.097+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:33:34.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:33:34.476+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:33:34.543+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:33:34.542+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:33:34.585+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:33:34.585+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:33:34.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.554 seconds
+[2026-06-05T14:34:04.731+0000] {processor.py:186} INFO - Started process (PID=773) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:34:04.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:34:04.736+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:34:04.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:34:04.992+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:34:05.033+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:34:05.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:34:05.067+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:34:05.066+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:34:05.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.379 seconds
+[2026-06-05T14:34:35.302+0000] {processor.py:186} INFO - Started process (PID=796) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:34:35.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:34:35.307+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:34:35.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:34:35.674+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:34:35.738+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:34:35.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:34:35.787+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:34:35.786+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:34:35.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.539 seconds
+[2026-06-05T14:35:06.474+0000] {processor.py:186} INFO - Started process (PID=818) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:35:06.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:35:06.480+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:35:06.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:35:06.796+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:35:06.868+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:35:06.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:35:06.925+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:35:06.924+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:35:06.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.519 seconds
+[2026-06-05T14:35:37.557+0000] {processor.py:186} INFO - Started process (PID=840) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:35:37.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:35:37.565+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:35:37.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:35:37.899+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:35:37.946+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:35:37.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:35:37.991+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:35:37.991+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:35:38.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.511 seconds
+[2026-06-05T14:36:08.602+0000] {processor.py:186} INFO - Started process (PID=862) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:36:08.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:36:08.611+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:36:08.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:36:09.039+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:36:09.077+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:36:09.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:36:09.122+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:36:09.121+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:36:09.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.569 seconds
+[2026-06-05T14:36:39.852+0000] {processor.py:186} INFO - Started process (PID=890) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:36:39.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:36:39.874+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:36:39.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:36:40.512+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:36:40.683+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:36:40.681+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:36:40.850+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:36:40.850+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:36:41.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 1.186 seconds
+[2026-06-05T14:37:12.545+0000] {processor.py:186} INFO - Started process (PID=912) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:37:12.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:37:12.580+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:37:12.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:37:17.087+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:37:18.446+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:37:18.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:37:18.806+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:37:18.795+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:37:18.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 6.668 seconds
+[2026-06-05T14:37:49.326+0000] {processor.py:186} INFO - Started process (PID=927) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:37:49.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:37:49.353+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:37:49.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:37:50.599+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:37:50.872+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:37:50.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:37:51.075+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:37:51.074+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:37:51.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 1.938 seconds
+[2026-06-05T14:38:22.827+0000] {processor.py:186} INFO - Started process (PID=951) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:38:22.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:38:22.855+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:38:22.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:38:24.667+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:38:24.948+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:38:24.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:38:25.183+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:38:25.182+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:38:25.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 2.796 seconds
+[2026-06-05T14:38:56.377+0000] {processor.py:186} INFO - Started process (PID=973) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:38:56.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:38:56.396+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:38:56.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:38:57.007+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:38:57.085+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:38:57.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:38:57.150+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:38:57.149+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:38:57.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.861 seconds
+[2026-06-05T14:39:27.833+0000] {processor.py:186} INFO - Started process (PID=995) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:39:27.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:39:27.839+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:39:27.838+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:39:28.175+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:39:28.223+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:39:28.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:39:28.264+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:39:28.263+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:39:28.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.481 seconds
+[2026-06-05T14:39:58.946+0000] {processor.py:186} INFO - Started process (PID=1017) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:39:58.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:39:58.951+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:39:58.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:39:59.209+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:39:59.253+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:39:59.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:39:59.289+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:39:59.288+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:39:59.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.394 seconds
+[2026-06-05T14:40:29.811+0000] {processor.py:186} INFO - Started process (PID=1040) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:40:29.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:40:29.838+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:40:29.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:40:30.825+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:40:31.033+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:40:31.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:40:31.186+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:40:31.184+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:40:31.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 1.529 seconds
+[2026-06-05T14:41:01.964+0000] {processor.py:186} INFO - Started process (PID=1062) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:41:01.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:41:01.977+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:41:01.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:41:02.426+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:41:02.505+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:41:02.504+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:41:02.575+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:41:02.575+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:41:02.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.711 seconds
+[2026-06-05T14:41:33.233+0000] {processor.py:186} INFO - Started process (PID=1084) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:41:33.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:41:33.238+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:41:33.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:41:33.636+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:41:33.681+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:41:33.680+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:41:33.716+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:41:33.716+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:41:33.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.533 seconds
+[2026-06-05T14:42:04.528+0000] {processor.py:186} INFO - Started process (PID=1106) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:42:04.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:42:04.533+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:42:04.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:42:04.767+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:42:04.816+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:42:04.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:42:04.850+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:42:04.849+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:42:04.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.374 seconds
+[2026-06-05T14:42:35.468+0000] {processor.py:186} INFO - Started process (PID=1128) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:42:35.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:42:35.473+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:42:35.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:42:35.777+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:42:35.822+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:42:35.822+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:42:35.867+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:42:35.867+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:42:35.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.459 seconds
+[2026-06-05T14:43:06.492+0000] {processor.py:186} INFO - Started process (PID=1150) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:43:06.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:43:06.496+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:43:06.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:43:06.818+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:43:06.871+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:43:06.870+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:43:06.905+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:43:06.905+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:43:06.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.464 seconds
+[2026-06-05T14:43:37.652+0000] {processor.py:186} INFO - Started process (PID=1172) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:43:37.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:43:37.659+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:43:37.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:43:38.076+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:43:38.146+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:43:38.146+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:43:38.201+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:43:38.200+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:43:38.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.649 seconds
+[2026-06-05T14:44:08.907+0000] {processor.py:186} INFO - Started process (PID=1194) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:44:08.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:44:08.915+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:44:08.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:44:09.191+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:44:09.241+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:44:09.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:44:09.287+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:44:09.287+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:44:09.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.448 seconds
+[2026-06-05T14:44:39.873+0000] {processor.py:186} INFO - Started process (PID=1216) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:44:39.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:44:39.878+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:44:39.877+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:44:40.129+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:44:40.185+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:44:40.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:44:40.222+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:44:40.222+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:44:40.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.400 seconds
+[2026-06-05T14:45:10.853+0000] {processor.py:186} INFO - Started process (PID=1238) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:45:10.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:45:10.861+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:45:10.859+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:45:11.228+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:45:11.391+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:45:11.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:45:11.554+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:45:11.553+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:45:11.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.787 seconds
+[2026-06-05T14:45:42.173+0000] {processor.py:186} INFO - Started process (PID=1260) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:45:42.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:45:42.181+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:45:42.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:45:42.578+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:45:42.640+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:45:42.639+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:45:42.718+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:45:42.718+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:45:42.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.625 seconds
+[2026-06-05T14:46:13.517+0000] {processor.py:186} INFO - Started process (PID=1282) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:46:13.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:46:13.524+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:46:13.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:46:13.898+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:46:13.965+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:46:13.964+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:46:14.015+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:46:14.014+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:46:14.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.579 seconds
+[2026-06-05T14:46:44.766+0000] {processor.py:186} INFO - Started process (PID=1306) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:46:44.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:46:44.783+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:46:44.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:46:45.224+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:46:45.299+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:46:45.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:46:45.370+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:46:45.370+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:46:45.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.694 seconds
+[2026-06-05T14:47:16.438+0000] {processor.py:186} INFO - Started process (PID=1328) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:47:16.452+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:47:16.468+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:47:16.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:47:16.801+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:47:16.848+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:47:16.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:47:16.902+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:47:16.901+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:47:16.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.565 seconds
+[2026-06-05T14:47:47.459+0000] {processor.py:186} INFO - Started process (PID=1351) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:47:47.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:47:47.466+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:47:47.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:47:47.843+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:47:47.990+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:47:47.989+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:47:48.136+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:47:48.135+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:47:48.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.749 seconds
+[2026-06-05T14:48:18.398+0000] {processor.py:186} INFO - Started process (PID=1373) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:48:18.399+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:48:18.402+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:48:18.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:48:18.684+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:48:18.747+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:48:18.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:48:18.794+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:48:18.794+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:48:18.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.449 seconds
+[2026-06-05T14:48:49.366+0000] {processor.py:186} INFO - Started process (PID=1401) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:48:49.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:48:49.370+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:48:49.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:48:49.620+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:48:49.675+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:48:49.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:48:49.721+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:48:49.720+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:48:49.774+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.421 seconds
+[2026-06-05T14:49:20.315+0000] {processor.py:186} INFO - Started process (PID=1423) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:49:20.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:49:20.326+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:49:20.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:49:20.543+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:49:20.585+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:49:20.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:49:20.619+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:49:20.618+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:49:20.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.344 seconds
+[2026-06-05T14:49:50.853+0000] {processor.py:186} INFO - Started process (PID=1445) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:49:50.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:49:50.858+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:49:50.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:49:51.258+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:49:51.351+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:49:51.350+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:49:51.419+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:49:51.418+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:49:51.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.635 seconds
+[2026-06-05T14:50:22.013+0000] {processor.py:186} INFO - Started process (PID=1467) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:50:22.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:50:22.019+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:50:22.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:50:22.306+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:50:22.363+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:50:22.362+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:50:22.411+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:50:22.411+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:50:22.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.459 seconds
+[2026-06-05T14:50:52.972+0000] {processor.py:186} INFO - Started process (PID=1489) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:50:52.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:50:52.978+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:50:52.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:50:53.265+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:50:53.315+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:50:53.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:50:53.355+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:50:53.354+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:50:53.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.430 seconds
+[2026-06-05T14:51:23.906+0000] {processor.py:186} INFO - Started process (PID=1511) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:51:23.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:51:23.917+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:51:23.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:51:24.211+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:51:24.258+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:51:24.258+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:51:24.294+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:51:24.294+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:51:24.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.434 seconds
+[2026-06-05T14:51:54.458+0000] {processor.py:186} INFO - Started process (PID=1533) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:51:54.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:51:54.466+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:51:54.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:51:54.817+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:51:54.888+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:51:54.887+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:51:54.944+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:51:54.943+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:51:54.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.555 seconds
+[2026-06-05T14:52:25.554+0000] {processor.py:186} INFO - Started process (PID=1555) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:52:25.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:52:25.559+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:52:25.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:52:25.837+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:52:25.892+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:52:25.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:52:25.938+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:52:25.937+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:52:25.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.435 seconds
+[2026-06-05T14:52:56.496+0000] {processor.py:186} INFO - Started process (PID=1577) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:52:56.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:52:56.505+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:52:56.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:52:56.884+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:52:56.930+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:52:56.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:52:56.963+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:52:56.963+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:52:56.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.514 seconds
+[2026-06-05T14:53:27.583+0000] {processor.py:186} INFO - Started process (PID=1599) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:53:27.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:53:27.590+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:53:27.589+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:53:27.847+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:53:27.896+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:53:27.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:53:27.937+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:53:27.936+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:53:27.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.407 seconds
+[2026-06-05T14:53:58.534+0000] {processor.py:186} INFO - Started process (PID=1621) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:53:58.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:53:58.538+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:53:58.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:53:58.801+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:53:58.854+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:53:58.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:53:58.891+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:53:58.890+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:53:58.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.401 seconds
+[2026-06-05T14:54:29.082+0000] {processor.py:186} INFO - Started process (PID=1643) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:54:29.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:54:29.087+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:54:29.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:54:29.330+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:54:29.375+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:54:29.375+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:54:29.412+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:54:29.412+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:54:29.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.371 seconds
+[2026-06-05T14:54:59.904+0000] {processor.py:186} INFO - Started process (PID=1665) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:54:59.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:54:59.909+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:54:59.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:55:00.121+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:55:00.160+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:55:00.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:55:00.207+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:55:00.207+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:55:00.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.530 seconds
+[2026-06-05T14:55:31.043+0000] {processor.py:186} INFO - Started process (PID=1687) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:55:31.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:55:31.050+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:55:31.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:55:31.434+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:55:31.527+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:55:31.526+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:55:31.612+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:55:31.612+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:55:31.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.669 seconds
+[2026-06-05T14:56:01.966+0000] {processor.py:186} INFO - Started process (PID=1709) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:56:01.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:56:01.977+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:56:01.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:56:02.297+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:56:02.367+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:56:02.367+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:56:02.422+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:56:02.422+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:56:02.480+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.576 seconds
+[2026-06-05T14:56:32.609+0000] {processor.py:186} INFO - Started process (PID=1731) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:56:32.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:56:32.619+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:56:32.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:56:32.898+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:56:32.956+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:56:32.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:56:33.003+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:56:33.003+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:56:33.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.444 seconds
+[2026-06-05T14:57:03.740+0000] {processor.py:186} INFO - Started process (PID=1753) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:57:03.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:57:03.747+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:57:03.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:57:04.076+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:57:04.140+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:57:04.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:57:04.188+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:57:04.187+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:57:04.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.503 seconds
+[2026-06-05T14:57:34.693+0000] {processor.py:186} INFO - Started process (PID=1775) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:57:34.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:57:34.698+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:57:34.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:57:34.997+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:57:35.066+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:57:35.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:57:35.125+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:57:35.125+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:57:35.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.492 seconds
+[2026-06-05T14:58:05.642+0000] {processor.py:186} INFO - Started process (PID=1797) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:58:05.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:58:05.646+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:58:05.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:58:05.887+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:58:05.942+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:58:05.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:58:05.982+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:58:05.981+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:58:06.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.392 seconds
+[2026-06-05T14:58:36.502+0000] {processor.py:186} INFO - Started process (PID=1819) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:58:36.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:58:36.515+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:58:36.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:58:37.717+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:58:37.819+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:58:37.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:58:37.856+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:58:37.855+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:58:37.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 1.416 seconds
+[2026-06-05T14:59:08.425+0000] {processor.py:186} INFO - Started process (PID=1841) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:59:08.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:59:08.430+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:59:08.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:59:08.727+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:59:08.797+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:59:08.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:59:08.857+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:59:08.856+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:59:08.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.487 seconds
+[2026-06-05T14:59:39.573+0000] {processor.py:186} INFO - Started process (PID=1863) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:59:39.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T14:59:39.576+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:59:39.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:59:39.812+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T14:59:39.861+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:59:39.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T14:59:39.916+0000] {logging_mixin.py:190} INFO - [2026-06-05T14:59:39.916+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T14:59:39.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.395 seconds
+[2026-06-05T15:00:10.456+0000] {processor.py:186} INFO - Started process (PID=1885) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:00:10.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:00:10.464+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:00:10.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:00:10.780+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:00:10.835+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:00:10.834+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:00:10.878+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:00:10.878+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:00:10.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.473 seconds
+[2026-06-05T15:00:41.455+0000] {processor.py:186} INFO - Started process (PID=1907) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:00:41.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:00:41.460+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:00:41.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:00:41.934+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:00:42.097+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:00:42.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:00:42.220+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:00:42.219+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:00:42.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.889 seconds
+[2026-06-05T15:01:12.853+0000] {processor.py:186} INFO - Started process (PID=1928) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:01:12.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:01:12.858+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:01:12.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:01:13.132+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:01:13.187+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:01:13.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:01:13.243+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:01:13.242+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:01:13.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.523 seconds
+[2026-06-05T15:01:43.795+0000] {processor.py:186} INFO - Started process (PID=1950) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:01:43.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:01:43.799+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:01:43.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:01:44.128+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:01:44.195+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:01:44.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:01:44.241+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:01:44.241+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:01:44.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.503 seconds
+[2026-06-05T15:02:14.886+0000] {processor.py:186} INFO - Started process (PID=1972) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:02:14.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:02:14.891+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:02:14.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:02:15.155+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:02:15.209+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:02:15.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:02:15.248+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:02:15.248+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:02:15.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.402 seconds
+[2026-06-05T15:02:45.373+0000] {processor.py:186} INFO - Started process (PID=1994) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:02:45.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:02:45.377+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:02:45.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:02:45.650+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:02:45.708+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:02:45.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:02:45.759+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:02:45.759+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:02:45.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.433 seconds
+[2026-06-05T15:03:16.301+0000] {processor.py:186} INFO - Started process (PID=2016) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:03:16.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:03:16.306+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:03:16.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:03:16.543+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:03:16.588+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:03:16.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:03:16.632+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:03:16.632+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:03:16.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.376 seconds
+[2026-06-05T15:03:47.163+0000] {processor.py:186} INFO - Started process (PID=2038) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:03:47.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:03:47.187+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:03:47.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:03:49.206+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:03:49.602+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:03:49.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:03:49.933+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:03:49.932+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:03:50.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 3.144 seconds
+[2026-06-05T15:04:20.722+0000] {processor.py:186} INFO - Started process (PID=2060) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:04:20.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:04:20.731+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:04:20.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:04:21.010+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:04:21.058+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:04:21.058+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:04:21.289+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:04:21.288+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:04:21.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.745 seconds
+[2026-06-05T15:04:51.992+0000] {processor.py:186} INFO - Started process (PID=2082) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:04:51.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:04:51.998+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:04:51.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:04:52.571+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:04:52.621+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:04:52.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:04:52.668+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:04:52.668+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:04:52.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.742 seconds
+[2026-06-05T15:05:23.335+0000] {processor.py:186} INFO - Started process (PID=2103) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:05:23.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:05:23.340+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:05:23.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:05:23.605+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:05:23.656+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:05:23.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:05:23.693+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:05:23.693+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:05:23.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.411 seconds
+[2026-06-05T15:05:54.291+0000] {processor.py:186} INFO - Started process (PID=2131) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:05:54.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:05:54.297+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:05:54.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:05:54.612+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:05:54.671+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:05:54.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:05:54.722+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:05:54.722+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:05:54.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.482 seconds
+[2026-06-05T15:06:25.266+0000] {processor.py:186} INFO - Started process (PID=2153) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:06:25.268+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:06:25.272+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:06:25.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:06:25.525+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:06:25.565+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:06:25.564+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:06:25.597+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:06:25.596+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:06:25.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.380 seconds
+[2026-06-05T15:06:56.472+0000] {processor.py:186} INFO - Started process (PID=2175) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:06:56.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:06:56.477+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:06:56.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:06:56.702+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:06:56.741+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:06:56.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:06:56.775+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:06:56.775+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:06:56.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.350 seconds
+[2026-06-05T15:07:26.948+0000] {processor.py:186} INFO - Started process (PID=2197) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:07:26.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:07:26.953+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:07:26.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:07:27.518+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:07:27.747+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:07:27.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:07:27.835+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:07:27.835+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:07:27.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.947 seconds
+[2026-06-05T15:07:58.373+0000] {processor.py:186} INFO - Started process (PID=2219) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:07:58.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-05T15:07:58.382+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:07:58.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:07:59.179+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-05T15:07:59.299+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:07:59.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-05T15:07:59.406+0000] {logging_mixin.py:190} INFO - [2026-06-05T15:07:59.405+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-04 00:00:00+00:00, run_after=2026-06-05 00:00:00+00:00
+[2026-06-05T15:07:59.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 1.196 seconds

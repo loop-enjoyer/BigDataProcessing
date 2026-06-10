@@ -56,7 +56,7 @@ with DAG(
     @task
     def build_gold_kpis(ds: str) -> dict:
         """Run the PySpark transformations and write Gold + Serve outputs."""
-        return run_daily(ds, with_reference=True)
+        return run_daily(ds)
 
     @task
     def publish_dashboard(ds: str) -> dict:
