@@ -460,3 +460,73 @@
 [2026-06-10T08:55:34.777+0000] {logging_mixin.py:190} INFO - [2026-06-10T08:55:34.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-06-10T08:55:34.838+0000] {logging_mixin.py:190} INFO - [2026-06-10T08:55:34.838+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
 [2026-06-10T08:55:34.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.334 seconds
+[2026-06-10T09:12:29.752+0000] {processor.py:186} INFO - Started process (PID=2301) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:12:29.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:12:29.755+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:12:29.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:12:29.913+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:12:29.936+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:12:29.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:12:29.957+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:12:29.956+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:12:29.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.230 seconds
+[2026-06-10T09:13:00.612+0000] {processor.py:186} INFO - Started process (PID=2317) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:13:00.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:13:00.630+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:00.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:13:00.889+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:13:00.922+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:00.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:13:01.000+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:00.999+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:13:01.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.454 seconds
+[2026-06-10T09:13:31.386+0000] {processor.py:186} INFO - Started process (PID=2333) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:13:31.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:13:31.391+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:31.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:13:31.612+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:13:31.644+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:31.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:13:31.670+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:31.670+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:13:31.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.320 seconds
+[2026-06-10T09:14:02.056+0000] {processor.py:186} INFO - Started process (PID=2349) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:14:02.058+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:14:02.061+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:02.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:14:02.299+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:14:02.349+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:02.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:14:02.387+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:02.387+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:14:02.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.407 seconds
+[2026-06-10T09:14:32.838+0000] {processor.py:186} INFO - Started process (PID=2365) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:14:32.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:14:32.870+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:32.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:14:33.275+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:14:33.348+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:33.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:14:33.415+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:33.414+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:14:33.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.669 seconds
+[2026-06-10T09:15:03.735+0000] {processor.py:186} INFO - Started process (PID=2389) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:15:03.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:15:03.744+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:03.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:15:04.212+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:15:04.253+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:04.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:15:04.285+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:04.285+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:15:04.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.595 seconds
+[2026-06-10T09:15:34.939+0000] {processor.py:186} INFO - Started process (PID=2412) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:15:34.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:15:34.941+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:34.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:15:35.122+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:15:35.149+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:35.149+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:15:35.174+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:35.173+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:15:35.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.268 seconds
+[2026-06-10T09:16:05.521+0000] {processor.py:186} INFO - Started process (PID=2435) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:16:05.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:16:05.524+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:16:05.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:16:05.681+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:16:05.708+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:16:05.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:16:05.732+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:16:05.732+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:16:05.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.255 seconds
+[2026-06-10T09:16:36.057+0000] {processor.py:186} INFO - Started process (PID=2458) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:16:36.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:16:36.062+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:16:36.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:16:36.518+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:16:36.550+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:16:36.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:16:36.575+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:16:36.575+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:16:36.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.551 seconds
+[2026-06-10T09:17:07.452+0000] {processor.py:186} INFO - Started process (PID=2481) to work on /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:17:07.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/starter_pipeline.py for tasks to queue
+[2026-06-10T09:17:07.456+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:17:07.455+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:17:07.731+0000] {processor.py:925} INFO - DAG(s) 'lab4_starter' retrieved from /opt/airflow/dags/starter_pipeline.py
+[2026-06-10T09:17:07.776+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:17:07.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:17:07.808+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:17:07.808+0000] {dag.py:4180} INFO - Setting next_dagrun for lab4_starter to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:17:07.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/starter_pipeline.py took 0.390 seconds

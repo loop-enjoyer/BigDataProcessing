@@ -560,3 +560,150 @@ NameError: name 'StructField' is not defined
 [2026-06-10T08:55:25.619+0000] {logging_mixin.py:190} INFO - [2026-06-10T08:55:25.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-06-10T08:55:25.645+0000] {logging_mixin.py:190} INFO - [2026-06-10T08:55:25.645+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
 [2026-06-10T08:55:25.664+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.278 seconds
+[2026-06-10T09:12:20.595+0000] {processor.py:186} INFO - Started process (PID=2300) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:12:20.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:12:20.602+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:12:20.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:12:20.656+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:12:20.654+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/team_adrien.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/team_adrien.py", line 59
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2026-06-10T09:12:20.657+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:12:20.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.132 seconds
+[2026-06-10T09:12:51.455+0000] {processor.py:186} INFO - Started process (PID=2316) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:12:51.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:12:51.462+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:12:51.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:12:51.510+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:12:51.508+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/team_adrien.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/team_adrien.py", line 59
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2026-06-10T09:12:51.512+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:12:51.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.094 seconds
+[2026-06-10T09:13:21.990+0000] {processor.py:186} INFO - Started process (PID=2332) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:13:21.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:13:21.997+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:21.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:13:22.032+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:22.030+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/team_adrien.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/team_adrien.py", line 59
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2026-06-10T09:13:22.033+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:13:22.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.098 seconds
+[2026-06-10T09:13:52.898+0000] {processor.py:186} INFO - Started process (PID=2348) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:13:52.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:13:52.902+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:52.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:13:52.944+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:13:52.942+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/team_adrien.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/team_adrien.py", line 59
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2026-06-10T09:13:52.945+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:13:52.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.093 seconds
+[2026-06-10T09:14:23.500+0000] {processor.py:186} INFO - Started process (PID=2364) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:14:23.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:14:23.505+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:23.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:14:23.558+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:23.557+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/team_adrien.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/team_adrien.py", line 59
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2026-06-10T09:14:23.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:14:23.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.110 seconds
+[2026-06-10T09:14:53.942+0000] {processor.py:186} INFO - Started process (PID=2380) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:14:53.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:14:53.948+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:53.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:14:53.987+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:53.985+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/team_adrien.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/team_adrien.py", line 59
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2026-06-10T09:14:53.987+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:14:54.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.096 seconds
+[2026-06-10T09:14:57.038+0000] {processor.py:186} INFO - Started process (PID=2381) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:14:57.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:14:57.043+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:57.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:14:57.293+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:14:57.282+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/team_adrien.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/team_adrien.py", line 17, in <module>
+    from include.team_adrien_spark import run_daily
+  File "/opt/airflow/include/team_adrien_spark.py", line 21
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2026-06-10T09:14:57.298+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:14:57.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.363 seconds
+[2026-06-10T09:15:27.993+0000] {processor.py:186} INFO - Started process (PID=2404) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:15:27.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:15:27.997+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:27.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:15:28.225+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:15:28.744+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:28.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:15:28.770+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:28.770+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:15:28.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.816 seconds
+[2026-06-10T09:15:59.341+0000] {processor.py:186} INFO - Started process (PID=2427) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:15:59.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:15:59.345+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:59.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:15:59.558+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:15:59.596+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:59.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:15:59.621+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:15:59.621+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:15:59.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.309 seconds
+[2026-06-10T09:16:29.907+0000] {processor.py:186} INFO - Started process (PID=2450) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:16:29.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:16:29.910+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:16:29.910+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:16:30.117+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:16:30.155+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:16:30.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:16:30.184+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:16:30.184+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:16:30.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 0.311 seconds
+[2026-06-10T09:17:01.090+0000] {processor.py:186} INFO - Started process (PID=2473) to work on /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:17:01.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_adrien.py for tasks to queue
+[2026-06-10T09:17:01.099+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:17:01.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:17:01.805+0000] {processor.py:925} INFO - DAG(s) 'team_adrien' retrieved from /opt/airflow/dags/team_adrien.py
+[2026-06-10T09:17:01.920+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:17:01.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-10T09:17:02.020+0000] {logging_mixin.py:190} INFO - [2026-06-10T09:17:02.019+0000] {dag.py:4180} INFO - Setting next_dagrun for team_adrien to 2026-06-10 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-10T09:17:02.099+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_adrien.py took 1.024 seconds
